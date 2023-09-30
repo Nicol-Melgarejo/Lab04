@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace Ejercicio02
 {
+    //nikol
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page2 : ContentPage
     {
@@ -17,7 +18,7 @@ namespace Ejercicio02
             InitializeComponent();
         }
 
-        async void OnNextPageButtonClicked(object sender, EventArgs e)
+        async void OnPreviousPageButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }

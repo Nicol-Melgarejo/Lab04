@@ -15,6 +15,10 @@ namespace Ejercicio02
         public ModalPage1()
         {
             InitializeComponent();
+            btnCLosePopup.Clicked += async (sender, e) =>
+            {
+                await Navigation.PopModalAsync();
+            };
         }
     }
 }

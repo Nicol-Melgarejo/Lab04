@@ -4,9 +4,10 @@
              x:Class="Ejercicio02.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Page 2"
+            <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
             <Button Text="Previous Page" Clicked="OnPreviousPageButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
